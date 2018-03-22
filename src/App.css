@@ -1,28 +1,26 @@
-.App {
-  text-align: center;
-}
+.app {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+} 
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: rgb(112, 44, 44);
-  height: 150px;
+.signup-form {
   padding: 20px;
-  color: white;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+} 
+
+.mdc-textfield {
+  margin-bottom: 1em;
 }
 
-.App-title {
-  font-size: 1.5em;
+.mdc-textfield__input {
+  width: 100%;
 }
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
+ 
